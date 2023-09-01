@@ -1,5 +1,6 @@
 VERSION 5.00
 Object = "{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}#1.0#0"; "MSDatGrd.ocx"
+<<<<<<< HEAD
 Object = "{67397AA1-7FB1-11D0-B148-00A0C922E820}#6.0#0"; "MSAdoDc.ocx"
 Begin VB.Form MenuForm 
    Caption         =   "To-Do List"
@@ -7,6 +8,14 @@ Begin VB.Form MenuForm
    ClientLeft      =   60
    ClientTop       =   405
    ClientWidth     =   5880
+=======
+Begin VB.Form MenuForm 
+   Caption         =   "To-Do List"
+   ClientHeight    =   5070
+   ClientLeft      =   60
+   ClientTop       =   405
+   ClientWidth     =   5730
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
    BeginProperty Font 
       Name            =   "Tahoma"
       Size            =   8.25
@@ -17,6 +26,7 @@ Begin VB.Form MenuForm
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form1"
+<<<<<<< HEAD
    ScaleHeight     =   5235
    ScaleWidth      =   5880
    ShowInTaskbar   =   0   'False
@@ -76,6 +86,20 @@ Begin VB.Form MenuForm
       Width           =   3375
       _ExtentX        =   5953
       _ExtentY        =   1720
+=======
+   ScaleHeight     =   5070
+   ScaleWidth      =   5730
+   ShowInTaskbar   =   0   'False
+   StartUpPosition =   3  'Windows Default
+   Begin MSDataGridLib.DataGrid DataGrid1 
+      Height          =   1215
+      Left            =   720
+      TabIndex        =   4
+      Top             =   1080
+      Width           =   4095
+      _ExtentX        =   7223
+      _ExtentY        =   2143
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
       _Version        =   393216
       HeadLines       =   1
       RowHeight       =   15
@@ -89,7 +113,11 @@ Begin VB.Form MenuForm
          Strikethrough   =   0   'False
       EndProperty
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+<<<<<<< HEAD
          Name            =   "Segoe UI"
+=======
+         Name            =   "Tahoma"
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
          Size            =   8.25
          Charset         =   0
          Weight          =   400
@@ -133,26 +161,62 @@ Begin VB.Form MenuForm
       EndProperty
    End
    Begin VB.ListBox List1 
+<<<<<<< HEAD
       Height          =   1035
       ItemData        =   "MenuForm.frx":001A
       Left            =   3480
       List            =   "MenuForm.frx":001C
       TabIndex        =   3
       Top             =   1080
+=======
+      Height          =   840
+      ItemData        =   "MenuForm.frx":0000
+      Left            =   1560
+      List            =   "MenuForm.frx":0002
+      TabIndex        =   3
+      Top             =   2400
+      Width           =   2295
+   End
+   Begin VB.Data Data1 
+      Caption         =   "Data1"
+      Connect         =   "Access 2000;"
+      DatabaseName    =   "C:\Program Files (x86)\Microsoft Visual Studio\VB98\NWIND.MDB"
+      DefaultCursorType=   0  'DefaultCursor
+      DefaultType     =   2  'UseODBC
+      Exclusive       =   0   'False
+      Height          =   345
+      Left            =   1560
+      Options         =   0
+      ReadOnly        =   0   'False
+      RecordsetType   =   1  'Dynaset
+      RecordSource    =   "Products"
+      Top             =   3480
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
       Width           =   2295
    End
    Begin VB.CommandButton cmdExit 
       Caption         =   "Exit"
       Height          =   360
+<<<<<<< HEAD
       Left            =   3240
+=======
+      Left            =   2880
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
       TabIndex        =   2
       Top             =   3960
       Width           =   990
    End
+<<<<<<< HEAD
    Begin VB.CommandButton cmdDelete 
       Caption         =   "Delete"
       Height          =   360
       Left            =   1920
+=======
+   Begin VB.CommandButton cmdClear 
+      Caption         =   "Clear"
+      Height          =   360
+      Left            =   1680
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
       TabIndex        =   1
       Top             =   3960
       Width           =   990
@@ -183,6 +247,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+<<<<<<< HEAD
 Private Sub cmdDelete_Click()
     If Not rs.EOF Then
         rs.Delete adAffectCurrent
@@ -191,11 +256,24 @@ Private Sub cmdDelete_Click()
 End Sub
 
 
+=======
+Private Sub cmdClear_Click()
+    List1.Clear
+End Sub
+
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
 Private Sub cmdExit_Click()
     Unload MenuForm
     End
 End Sub
 
+<<<<<<< HEAD
+=======
+Private Sub Data1_Reposition()
+    Data1.Caption = Data1.Recordset("ProductName")
+End Sub
+
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
 Private Sub DataGrid1_dblClick()
     Dim selectRow As Long
     Dim selectCol As Long
@@ -207,9 +285,12 @@ Private Sub DataGrid1_dblClick()
         List1.AddItem DataGrid1.TextMatrix(selectRow, selectCol)
     End If
 End Sub
+<<<<<<< HEAD
 
 Private Sub Form_Load()
     Call Connect
     LoadDataGrid
 End Sub
 
+=======
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1

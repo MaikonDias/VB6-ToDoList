@@ -1,4 +1,5 @@
 [History]
+<<<<<<< HEAD
 1=#P0#=mb	#P1#=cmdDelet_Click	#P2#=Project1/MenuForm/cmdDelet_Click	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20230831204626	#P7#=0	#P8#=0	.
 2=#P0#=mb	#P1#=cmdDel_Click	#P2#=Project1/MenuForm/cmdDel_Click	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20230831204626	#P7#=0	#P8#=0	.
 3=#P0#=mb	#P1#=cmdD_Click	#P2#=Project1/MenuForm/cmdD_Click	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20230831204625	#P7#=0	#P8#=0	.
@@ -23,3 +24,16 @@
 22=#P0#=mb	#P1#=txtNome_Change	#P2#=Project1/Inicio/txtNome_Change	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230824162335	#P7#=0	#P8#=1	.
 23=#P0#=mb	#P1#=cmdExit_Click	#P2#=Project1/MenuForm/cmdExit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230831204616	#P7#=0	#P8#=-2	.
 24=#P0#=mb	#P1#=Data1_Reposition	#P2#=Project1/MenuForm/Data1_Reposition	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230831203906	#P7#=0	#P8#=-1	.
+=======
+1=#P0#=mb	#P1#=cmdCommand_Click	#P2#=Project1/Inicio/cmdCommand_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830203320	#P7#=0	#P8#=2	.
+2=#P0#=mb	#P1#=txtPassword_LostFocus	#P2#=Project1/Inicio/txtPassword_LostFocus	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830202451	#P7#=0	#P8#=2	.
+3=#P0#=mb	#P1#=txtPassword_Click	#P2#=Project1/Inicio/txtPassword_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830202411	#P7#=0	#P8#=2	.
+4=#P0#=mb	#P1#=DataGrid1_dblClick	#P2#=Project1/MenuForm/DataGrid1_dblClick	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830200746	#P7#=0	#P8#=10	.
+5=#P0#=mb	#P1#=txtNome_LostFocus	#P2#=Project1/Inicio/txtNome_LostFocus	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830200555	#P7#=0	#P8#=-1	.
+6=#P0#=mb	#P1#=cmdClear_Click	#P2#=Project1/MenuForm/cmdClear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230830112912	#P7#=0	#P8#=0	.
+7=#P0#=mb	#P1#=txtNome_Click	#P2#=Project1/Inicio/txtNome_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230829111546	#P7#=0	#P8#=-2	.
+8=#P0#=mb	#P1#=txtPassword_Change	#P2#=Project1/Inicio/txtPassword_Change	#P3#=	#P4#=	#P5#=MembMethodPublic	#P6#=20230824162536	#P7#=0	#P8#=4	.
+9=#P0#=mb	#P1#=txtNome_Change	#P2#=Project1/Inicio/txtNome_Change	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230824162335	#P7#=0	#P8#=1	.
+10=#P0#=mb	#P1#=cmdExit_Click	#P2#=Project1/MenuForm/cmdExit_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230824162149	#P7#=0	#P8#=3	.
+11=#P0#=mb	#P1#=Data1_Reposition	#P2#=Project1/MenuForm/Data1_Reposition	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20230824145331	#P7#=0	#P8#=2	.
+>>>>>>> 3078e2b702d27f7e87d4ad586ef03227ba6e41e1
